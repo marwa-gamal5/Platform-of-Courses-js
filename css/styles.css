@@ -1,0 +1,2934 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&display=swap');
+*{
+    font-family: 'Jost';
+;
+}
+:root {
+    /* text styles */
+    /*Subtitle-S3*/
+
+    --S3-Subtitle-font-size: 16px;
+    --S3-Subtitle-line-height: 26px;
+    --S3-Subtitle-font-weight: 400;
+    /* title font */
+    --title-font-family: 'Jost';
+    /*Heading-H1*/
+    --H1-title-font-size: 64px;
+    --H1-title-line-height: 74px;
+    --H1-title-font-weight: 700;
+    /*Heading-H2*/
+
+    --H2-title-font-size: 44px;
+    --H2-title-line-height: 54px;
+    --H2-title-font-weight: 700;
+
+    /*Heading-H3*/
+
+    --H3-title-font-size: 36px;
+    --H3-title-line-height: 46px;
+    --H3-title-font-weight: 700;
+
+
+    /*Heading-H4*/
+
+    --H4-title-font-size: 30px;
+    --H4-title-line-height: 40px;
+    --H4-title-font-weight: 600;
+
+
+    /*Heading-H5*/
+
+    --H5-title-font-size: 24px;
+    --H5-title-line-height: 34px;
+    --H5-title-font-weight: 600;
+
+
+    /*Heading-H6*/
+
+    --H6-title-font-size: 20px;
+    --H6-title-line-height: 30px;
+    --H6-title-font-weight: 600;
+
+
+    /*Subtitle-S1*/
+
+    --S1-Subtitle-font-size: 18px;
+    --S1-Subtitle-line-height: 28px;
+    --S1-Subtitle-font-weight: 500;
+
+    /*Subtitle-S2*/
+
+    --S2-Subtitle-font-size: 16px;
+    --S2-Subtitle-line-height: 26px;
+    --S2-Subtitle-font-weight: 500;
+
+    /*Body Fonts*/
+    --Body-font-family: 'Roboto';
+
+    /*paragraph-P1*/
+
+    --P1-paragraph-font-size: 16px;
+    --P1-paragraph-line-height: 26px;
+    --P1-paragraph-font-weight: 400;
+
+
+    /*paragraph-P2*/
+
+    --P2-paragraph-font-size: 14px;
+    --P2-paragraph-line-height: 24px;
+    --P2-paragraph-font-weight: 400;
+
+    /* Color styles */
+
+    --Themecolor1: #0067BC;
+    --Themecolor2: #F20F10;
+    --Titlecolor: #00112B;
+    --Bodycolor: #4D5765;
+    --Whitecolor: #FFFFFF;
+    --SmokeColor: #F3F7FB;
+    --Bordercolor: #D0DBE9;
+    --lightGraycolor: #F2F2F2;
+    --Graycolor: #9FAAB7;
+    --LightBluecolor: #ECF1F9;
+}
+.coRadu{
+    border-top-right-radius: 50px;
+}
+.headbg,.headsidebg{
+    background-color: var(--Themecolor1);
+}
+.SectionTwo{
+    background-image:  url("/image/background.png");
+    background-size: cover;
+    height: 750px;
+    /*overflow: hidden;*/
+}
+.f-text{
+    color: #0064b0;
+}
+.m1{margin-left: 5%;}
+
+.SectionTwo .p1{
+    color: var(--Titlecolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+    margin-left:88px ;
+    margin-top: -22px;
+
+}
+.SectionTwo .span{
+    color: var(--Themecolor1, #0067BC);
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Title font/Heading - H3 */
+    font-family: Jost;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+.SectionTwo .span2{
+    color: var(--Themecolor2, #F20F10);
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Title font/Heading - H3 */
+    font-family: Jost;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+.SectionTwo .number1{
+    color: var(--Titlecolor, #00112B);
+    font-family: var(--title-font-family);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+.SectionTwo .number2{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.SectionTwo .p2{
+    color: var(--Themecolor1);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);;
+    font-size: var(--H1-title-font-size);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 94.595% */
+}
+.SectionTwo .p3{
+    color: var(--Titlecolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+}
+.SectionTwo .p4{
+    color: var(--Titlecolor);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Subtitle - S1 */
+    font-family: var(--title-font-family);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.styled-button1{
+    color: var(--Whitecolor);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Subtitle - S1 */
+    font-family:  var(--title-font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    border-radius: 5px;
+    background: var( --Themecolor1);
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+    display: flex;
+    width: 180px;
+    padding: 18px ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-transform: uppercase;
+}
+.styled-button1:hover{
+    background-color: #004C8B;
+}
+.styled-button2{
+    color: var(--Whitecolor);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Subtitle - S1 */
+    font-family:  var(--title-font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    border-radius: 5px;
+    background: var( --Titlecolor);
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+    display: flex;
+    width: 180px;
+    padding: 18px ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+.styled-button2:hover{
+    background-color: var(--Bodycolor, #4D5765);;
+}
+.SectionTwo .SectionTwop1style{
+    padding-left: 150px;
+    margin-top: 7%;
+}
+.SectionTwo .SquareStyle1{
+    width: 235px;
+    height: 80px;
+    border-radius: 100px;
+    background: var(--Whitecolor);
+    box-shadow: 0px 4px 32px 0px rgba(170, 179, 198, 0.15);
+    margin-top: 48%;
+    margin-right: 0;
+    right: 64%;
+}
+.SectionTwo .SquareStyle2{
+    width: 236px;
+    height: 80px;
+    border-radius: 100px;
+    background: var(--Whitecolor);
+    box-shadow: 0px 4px 32px 0px rgba(170, 179, 198, 0.15);
+    margin-top: 40%;
+    margin-right: 0;
+    left:68%;
+}
+.headHigh{
+    height: 134px ;
+}
+
+.headbg,.headsidebg{
+
+    background-color: var(--Themecolor1);
+}
+
+
+
+
+.sectionThree{
+    background-color: var(--SmokeColor, #F3F7FB);
+}
+.sectionFour{
+
+}
+/*section six at course details page*/
+.section-six .p1,
+    /*section six at course details page*/
+    /*section four at instructors page*/
+.section-four .p4,
+    /*section six at instructors page*/
+
+    /*section four at contact us page*/
+.contact-us .p3,
+    /*section six at contact us page*/
+.SectionEleven .p1,
+.SectionNine .pw,
+.sectionTen .p1,
+.Sectionsix  .p1,
+.sectionEight .p1,
+.sectionSeven .p1,
+.sectionFour .p1{
+    color: var(--Themecolor1, #0067BC);
+    font-family: var(--title-font-family);
+    font-size: var(--S2-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S2-Subtitle-font-weight);
+    line-height: var(--S2-Subtitle-line-height); /* 162.5% */
+    text-transform: uppercase;
+}
+
+/*section six at course details page*/
+.SectionEleven .p2,
+.section-six .p2,
+    /*section six at course details page*/
+.course-info .p1,
+.SectionNine .p2,
+.sectionTen .p2,
+.Sectionsix  .p2,
+.sectionEight .p2,
+.sectionSeven .p2,
+.sectionFour .p2{
+    color: var(--Titlecolor, #0F2239);
+    font-family: var(--title-font-family);
+    font-size:var(--H2-title-font-size) ;
+    text-transform: capitalize;
+    text-align: center;
+}
+.right-rotated-rectangle,
+.left-rotated-rectangle {
+    width: 200px;
+    height: 200px;
+    background-color: var(--Graycolor);
+    position: relative;
+    border-radius: 20px;
+    /*background-image: url(/image/step1.svg);*/
+    /*overflow: hidden;*/
+
+}
+.left-rotated-rectangle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/step2.png);
+    /*background-size: cover;*/
+    transform: rotate(14.769deg); /* Counter-rotate the background image */
+}
+.left-rectangle-container{
+    transform: rotate(-14.769deg);
+}
+.right-rectangle-container{
+    transform: rotate(14.769deg);
+}
+.purchase_icon{
+    z-index: 99;
+    margin-left: 30%;
+    bottom: 160px;
+}
+.sectionFour .p3{
+    color: var(--Titlecolor, #0F2239);
+    font-family: var(--title-font-family);
+    font-size: var(--H5-title-font-size);
+    line-height:var(--H5-title-line-height) ;
+    font-weight: var(--H5-title-font-weight);
+    font-style: normal;
+    text-align: center;
+
+}
+.sectionFour .p4{
+    color: var(--Bodycolor, #4D5765);
+    text-align: center;
+    font-family: var(--Body-font-family);
+    font-size: var(--S2-Subtitle-font-size);
+    font-weight: var(--P1-paragraph-font-weight);
+    line-height: var(--P1-paragraph-line-height);
+}
+
+.sectionFive{
+    /*height: 220px;*/
+    background-image:  url('/image/section5_bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionFive .p1{
+    color: var(--Whitecolor, #FFF);
+    text-align: center;
+    font-family:var(--title-font-family);
+    font-size: var(--H2-title-font-size);
+    font-style: normal;
+    font-weight: var(--H3-title-font-weight);
+    line-height: var(--H2-title-line-height);
+}
+.sectionFive .p3 ,
+.sectionFive .p2{
+    color: var(--Whitecolor, #FFF);
+    text-align: center;
+    font-family:var(--title-font-family);
+    font-size: var(--H6-title-font-size);
+    font-style: normal;
+    font-weight: var(--H3-title-font-weight);
+    line-height: var(--H6-title-line-height); /* 150% */
+}
+.sectionFive .p3{
+    font-weight: 400;
+}
+.bo{border-radius: 50%
+}
+/*Section six*/
+.Sectionsix{
+    background-color: #F2F4F6;
+    padding-left: 2%;
+}
+.Sectionsix .SquareStyle{
+    width: auto;
+    height: 120px;
+    border-radius: 10px;
+    background: var(--Whitecolor);
+    border: none ;
+
+}
+.Sectionsix .SquareStyle:hover{
+    background-color: #004C8B;
+
+}
+.Sectionsix .SquareStyle.selected {
+    background-color: #0067BC;
+
+}
+
+
+
+.Sectionsix .SquareStyle22{
+    width: 95%;
+    height: 120px;
+    border-radius: 10px;
+    background: var(--Whitecolor);
+    border: none ;
+
+}
+.Sectionsix .SquareStyle22:hover{
+    background-color: #004C8B;
+
+}
+.Sectionsix .SquareStyle22.selected {
+    background-color: #0067BC;
+
+}
+
+.Sectionsix .p3{
+    color: var(--Titlecolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var( --title-font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: var(--S1-Subtitle-font-weight);
+    line-height: 30px;
+    text-align:left ;
+
+}
+
+.Sectionsix .p4{
+    text-align:left ;
+}
+.Sectionsix .SquareStyle:hover .p3{
+    color: var(--Whitecolor);
+}
+.Sectionsix .SquareStyle.selected .p3 {
+    color: var(--Whitecolor);
+}
+.Sectionsix .SquareStyle:hover .p4{
+    color: var(--Whitecolor);
+}
+.Sectionsix .SquareStyle.selected .p4 {
+    color: var(--Whitecolor);
+}
+
+.Sectionsix .SquareStyle22:hover .p3{
+    color: var(--Whitecolor);
+}
+.Sectionsix .SquareStyle22.selected .p3 {
+    color: var(--Whitecolor);
+}
+.Sectionsix .SquareStyle22:hover .p4{
+    color: var(--Whitecolor);
+}
+.Sectionsix .SquareStyle22.selected .p4 {
+    color: var(--Whitecolor);
+}
+
+
+.Sectionsix .dashed-line {
+
+    /* border-top: 2px dashed #000; */
+    border: 1px dashed var(--Bordercolor);
+    width: auto;
+    height: 1px;
+}
+/*section six at course details page*/
+.section-six .rectangularstyle,
+    /*section six at course details page*/
+.Sectionsix .rectangularstyle{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    background: var( --Themecolor2);
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+/*section six at course details page*/
+.section-six .pp1,
+    /*section six at course details page*/
+.course-info .pp1,
+.Sectionsix .pp1{
+    color: var(--Whitecolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--H2-title-font-weight);
+    line-height: var( --P2-paragraph-line-height);
+}
+/*section six at course details page*/
+.section-six .t,
+    /*section six at course details page*/
+.course-info .t,
+.Sectionsix .t{
+    color: var( --Bodycolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family:var(--Body-font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: var(  --P2-paragraph-font-weight);
+    line-height:var( --P2-paragraph-line-height);
+}
+.Sectionsix .d{
+    color: var( --Titlecolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var( --title-font-family);
+    font-size: var( --S1-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S1-Subtitle-font-weight);
+    line-height: var(--S1-Subtitle-line-height);
+}
+.Sectionsix .lE{
+    color: var(--Themecolor2);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var( --Body-font-family);
+    font-size: var(   --P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var( --P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+    text-transform: uppercase;
+
+}
+.Sectionsix .styled-button1:hover{
+    background-color: #004C8B;
+}
+.Sectionsix .styled-button1{
+    text-transform: capitalize;
+}
+/*section six at course details page*/
+.section-six .card,
+    /*section six at course details page*/
+.Sectionsix .card {
+    transition: border-color 0.5s;
+    border-color: white;
+    border-radius: 10px;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 7px 36px 0px #EAEDF2;
+}
+/*section six at course details page*/
+.section-six .card:hover,
+    /*section six at course details page*/
+.Sectionsix .card:hover {
+    border-color: #0773cc;
+    border-width: 2px;
+}
+/*Section seven*/
+.selected-outer-circle,
+.normal-outer-circle{
+    width: 300px;
+    height: 300px;
+    /*border-color: var(--Themecolor1, #0067BC);*/
+    background-color: transparent;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+.normal-outer-circle{
+    border-left: 2px solid var(--Themecolor1, #0067BC);
+    border-right: 2px solid var(--Themecolor1, #0067BC);
+    border-bottom: 2px solid #D0DBE9;
+    border-top: 2px solid #D0DBE9;
+}
+.selected-outer-circle{
+    border-left: 2px solid #D0DBE9;
+    border-right: 2px solid #D0DBE9;
+    border-bottom: 2px solid var(--Themecolor2, #0067BC);
+    border-top: 2px solid var(--Themecolor2, #0067BC);
+}
+
+.down-small-circle,
+.top-small-circle{
+    width: 15px;
+    height: 15px;
+    background-color:var(--Themecolor1, #0067BC);
+    border-radius: 50%;
+}
+.top-small-circle{
+    left: 35px;
+    bottom: 246px;
+}
+.down-small-circle{
+    left: 244px;
+    bottom: 34px;
+}
+.selected-left-small-circle,
+.selected-right-small-circle{
+    width: 15px;
+    height: 15px;
+    background-color:var(--Themecolor2, #F20F10);
+    border-radius: 50%;
+}
+.selected-right-small-circle{
+    left: 245px;
+    bottom: 246px;
+}
+.selected-left-small-circle{
+    left: 38px;
+    bottom: 33px;
+}
+.co-max{
+    max-width: 1550px !important;
+}
+.selected-outer-circle, .mb-3, .position-relative {
+    transition: all 1s;
+}
+
+.d-none, .d-block, .selected-p4, .selected-right-small-circle, .selected-left-small-circle {
+    transition: all 1s;
+}
+
+.sectionSeven .social-btn,
+.sectionSeven .plus-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 999;
+    border: none;
+}
+.sectionSeven .plus-btn{
+    background-color: var(--Themecolor1, #0067BC);
+    bottom: 62px;
+    left: 182px;
+    color: #FFFFFF;
+    transform: rotate(-45deg);
+    z-index: 99999;
+}
+.sectionSeven .plus-btn:hover{
+    background-color: #004C8B;
+}
+.instructor-social-media{
+    transform: rotate(-45deg);
+    z-index: 999;
+    bottom: 62px;
+    left: 120px;
+}
+.sectionSeven .social-btn{
+    background-color: #FFFFFF;
+    color: var(--Titlecolor);
+    font-size: 20px;
+}
+.sectionSeven .social-btn:hover{
+    background-color: var(--Themecolor2 , #F20F10);
+    color: #FFFFFF;
+}
+.inner-circle{
+    top: 1px;
+    left: 1px;
+    width: 275px;
+    height: 275px;
+    background-color: #0a58ca;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-45deg);
+}
+.instructor1{
+    background-image: url('/image/instructor.png');
+}
+.instructor2{
+    background-image: url('/image/instructor2.png');
+}
+.instructor3{
+    background-image: url('/image/instructor3.png');
+}
+.instructor4{
+    background-image: url('/image/instructor4.png');
+}
+.sectionEight .p3,
+.sectionSeven .p3{
+    color: var(--Titlecolor, #00112B);
+    text-align: center;
+    font-family:var(--title-font-family);
+    font-size: var(--H5-title-font-size);
+    font-style: normal !important;
+    font-weight: var(--H5-title-font-weight);
+    line-height: var(--H5-title-line-height);
+
+}
+.instructor-card .p2,
+.sectionTen .p5,
+.sectionSeven .selected-p4,
+.sectionSeven .p4{
+    text-align: center;
+    font-family:var(--Body-font-family);
+    font-size: var(--P1-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P1-paragraph-font-weight);
+    line-height: var(--P1-paragraph-line-height);
+}
+.sectionTen .p5,
+.sectionSeven .p4{
+    color: var(--Themecolor1, #00112B);
+}
+.sectionSeven .selected-p4 {
+    color: var(--Themecolor2,  #F20F10);
+}
+
+/*Section Eight*/
+.sectionEight{
+
+    background-image:  url('/image/section8_bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.course3-image-container,
+.course2-image-container ,
+.course1-image-container{
+    /*width: 561px !important;*/
+    height: 240px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.course1-image-container{
+    background-image: url('/image/course1.svg');
+}
+.course2-image-container{
+    background-image: url('/image/course2.png');
+}
+.course3-image-container{
+    background-image: url('/image/course3.png');
+}
+
+.slant-right-rectangle,
+.slant-left-rectangle {
+    /*width: 912px !important;*/
+    width: 170% !important;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative;
+    z-index: 99;
+}
+.slant-right-rectangle::before ,
+.slant-left-rectangle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100px; /* Adjust the width to control the slant length */
+    height: 100%;
+    background-color: inherit; /* Match the parent's background color */
+    border-radius: 8px;
+}
+.slant-right-rectangle {
+    transform: skewX(20deg);
+    right: 70% !important;
+    /*transform: skew-(-20deg); !* Skew the element to the left *!*/
+}
+.slant-left-rectangle {
+    transform: skewX(-20deg);
+    left: 70%;
+    /*transform: skew-(-20deg); !* Skew the element to the left *!*/
+}
+.slant-right-rectangle::before {
+    right: 93%;
+    transform: skew(-20deg); /* Skew the pseudo-element to the right */
+}
+.slant-left-rectangle::before {
+    left: 93%;
+    transform: skew(20deg); /* Skew the pseudo-element to the right */
+}
+.slant-left-inner-content {
+    transform: skewX(20deg); /* Counteract the outer skew */
+    position: relative;
+}
+.slant-right-inner-content {
+    transform: skewX(-20deg); /* Counteract the outer skew */
+    position: relative;
+}
+.course-icon{
+    color: var(--Themecolor1);
+}
+.sectionEight .p4{
+    color: var(--Bodycolor, #4D5765);
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-weight: var(--P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+}
+
+/*Start Section 9 css */
+.SectionNine .p1{
+    color: var(--Bodycolor);
+    leading-trim: both;
+    text-edge: cap;
+    /* Body font/Paragraph - P2 */
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+}
+.SectionNine .card-title{
+    color: var(--Titlecolor);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Heading - H5 */
+    font-family: var(--title-font-family);
+
+    font-size: var(--H5-title-font-size);
+    font-style: normal;
+    font-weight: var(--H5-title-font-weight);
+    line-height: var(--H5-title-line-height);
+}
+
+.SectionThreeDetailsBlogPage .card,
+.SectionNine .card {
+    transition: border-color 0.5s;
+    border-color: white;
+    border-radius: 10px;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 7px 36px 0px #EAEDF2;
+}
+
+.SectionNine .card:hover {
+    border-color: #0773cc;
+    border-width: 2px;
+}
+.SectionNine .link{
+    color: var(--Themecolor1);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size:var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--S2-Subtitle-font-weight);
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/*End Section 9 css */
+
+
+/* Section Ten */
+.sectionTen{
+    height: 692px;
+    background-color: var(--Whitecolor , #FFFFFF);
+}
+.client-card{
+    /*height: auto;*/
+    height: 315px;
+    /*max-height: 350px;*/
+    /*overflow: auto;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--Whitecolor , #FFFFFF);
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.sectionTen .rate{
+    color: var(--Bodycolor, #4D5765);
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P2-paragraph-font-weight);
+    line-height: normal;
+    /*margin-left: 20%;*/
+    text-align: left;
+
+}
+.sectionTen .p3{
+    color: var(--Bodycolor, #4D5765);
+    font-family: var(--title-font-family);
+    font-size: var(--S2-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S2-Subtitle-font-weight);
+    line-height: var(--S2-Subtitle-line-height);
+    text-align: left;
+}
+.sectionTen .p4{
+    color: var(--Titlecolor, #0F2239);
+    font-family: var(--title-font-family);
+    font-size: var(--H5-title-font-size);
+    font-style: normal;
+    font-weight: var(--H5-title-font-weight);
+    line-height: var(--H5-title-line-height);
+    text-transform: uppercase;
+}
+.client-img{
+    width: 60px;
+    height: 60px;
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    z-index: 999;
+}
+
+.carousel {
+    margin: 30px auto 60px;
+    padding: 0 80px;
+}
+.carousel .carousel-item {
+    text-align: center;
+    overflow: hidden;
+}
+.carousel-inner {
+    transition-duration: 1s !important; /* Adjust the duration as needed (e.g., 2s for 2 seconds) */
+}
+
+.carousel-item {
+    transition: transform 1s ease-in-out !important; /* Adjust the duration as needed */
+}
+.custom-carousel-control-prev, .custom-carousel-control-next {
+    display: flex;
+    width: 55px !important;
+    height: 55px !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% !important;
+    border: none;
+    background-color: var(--Whitecolor, #FFFFFF) !important;
+    box-shadow: 0px 0px 20px 0px #DDE8FB;
+    z-index: 99999;
+    position: inherit !important;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    display: none !important;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 4px;
+    border: none;
+}
+.carousel-indicators li {
+    background: #ababab;
+}
+.carousel-indicators li.active {
+    background: #555;
+}
+/*Start Section Elevencss*/
+.SectionEleven .styled-button1{
+    color: var(--Whitecolor);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Subtitle - S1 */
+    font-family:  var(--title-font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    border-radius: 5px;
+    background: var( --Themecolor1);
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+    display: flex;
+    width: 230px;
+    padding: 18px ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-transform: uppercase;
+}
+.SectionEleven .box1:hover .line{
+    background: var(--Themecolor2, #F20F10);
+}
+.SectionEleven .box1:hover .styled-button1{
+    border-radius: 5px;
+    background: var(--Themecolor2, #F20F10);
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+
+}
+.SectionEleven{
+    background: var(--SmokeColor, #F3F7FB);
+}
+.SectionEleven .box1{
+    box-shadow: 0px 7px 36px 0px #EAEDF2;
+    display: flex;
+    padding: 0px 40px 40px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--LightBluecolor, #ECF1F9);
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 10px 20px 0px rgba(223, 234, 244, 0.50);
+}
+.SectionEleven .container{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.SectionEleven .line{
+    width: 100%;
+    height: 4px;
+    background: var(--Themecolor1, #0067BC);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.SectionEleven .pp1{
+    color: var(--Titlecolor, #00112B);
+    font-family: var(--title-font-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+.SectionEleven .box2{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #F3F7FB;
+}
+.SectionEleven .p3{
+    color: var(--Themecolor1, #0067BC);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+.SectionEleven .p4{
+    color: #9FAAB7;
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.SectionEleven .p5{
+    color: var(--Bodycolor, #4D5765);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*End Section Elevencss*/
+
+
+/*Start Footer css*/
+.footer-bg {
+    background-color:  #00112B;
+}
+.z-index0{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+.z-index1{
+    position: absolute;
+    left: auto;
+    top: auto;
+    z-index: 0;
+}
+
+
+
+/*Section two in COURSE Page */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: flex; /* Use flexbox to center the modal */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Add more styles for your filter options here */
+
+/* Button styles */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.close-button,
+.apply-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.apply-button:hover {
+    background-color: #0056b3;
+}
+.SectionTwoCoursesPage{
+    height: 510px;
+    background-image:  url('/image/bgimage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SectionTwoCoursesPage .p1{
+    color: var(--Whitecolor, #FFF);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Heading - H2 */
+    font-family: var( --title-font-family);
+    font-size: var(--H2-title-font-size);
+    font-style: normal;
+    font-weight: var(--H2-title-font-weight);
+    line-height: var(--H2-title-line-height);
+
+}
+.SectionTwoCoursesPage .d1{
+    margin-left: 6%;
+}
+.SectionTwoCoursesPage .a1{
+    color: var(--Whitecolor, #FFF) !important;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var( --title-font-family);
+    font-size: var(--S2-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S2-Subtitle-font-weight);
+    line-height: var(--S2-Subtitle-line-height);
+    text-decoration: none !important;
+}
+/*Section 3 in COURSE Page */
+.SectionThreeCoursesPage .p1{
+    color: var(--Titlecolor, #00112B);
+    font-family:  var( --title-font-family);
+    font-size:var(--S1-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S1-Subtitle-font-weight);
+    line-height: var(--S1-Subtitle-line-height);
+    text-transform: capitalize;
+
+}
+.SectionThreeCoursesPage .navbarstyle{
+    display: flex;
+    height: 81px;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    background:var(--SmokeColor, #F3F7FB);;
+    /* var(--SmokeColor, #F3F7FB);*/
+}
+.SectionThreeCoursesPage  .span{
+    color: var(--Themecolor1, #0067BC);
+    font-family:var( --title-font-family);
+    font-size: var(--S1-Subtitle-font-size);
+    font-weight:  var(--S1-Subtitle-font-weight);
+    line-height: var(--S1-Subtitle-line-height);
+    text-transform: capitalize;
+}
+
+.SectionThreeCoursesPage .x{
+    border: none;
+}
+.SectionThreeCoursesPage .x2{
+    color: var(--Themecolor1, #0067BC);
+    text-align: center;
+    font-family:var( --title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: var(--H4-title-font-weight);
+    line-height: normal;
+}
+.SectionThreeCoursesPage .x3{
+    width: 1px;
+    height: 20px;
+    background: #D9D9D9;
+}
+.SectionThreeCoursesPage .x4{
+    color: var(--Titlecolor, #0F2239);
+    font-family:var( --title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: var(--H4-title-font-weight);
+    line-height: normal;
+}
+
+.SectionThreeBlogPage .card,
+.SectionThreeCoursesPage .card {
+
+    transition: border-color 0.5s;
+    border-color: white;
+    border-radius: 10px;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 7px 36px 0px #EAEDF2;
+}
+
+.SectionThreeBlogPage .card:hover,
+.SectionThreeCoursesPage .card:hover {
+    border-color: #0773cc;
+    border-width: 2px;
+}
+.SectionThreeCoursesPage .rectangularstyle{
+    width: 115px;
+    height: 30px;
+    border-radius: 20px;
+    background: var( --Themecolor2);
+    position: absolute;
+    top: 4%;
+    left: 5%;
+
+}
+.SectionThreeCoursesPage .pp1{
+    color: var(--Whitecolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--H2-title-font-weight);
+    line-height: var( --P2-paragraph-line-height);
+}
+.SectionThreeCoursesPage .t{
+    color: var( --Bodycolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family:var(--Body-font-family);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: var(  --P2-paragraph-font-weight);
+    line-height:var( --P2-paragraph-line-height);
+}
+.SectionThreeCoursesPage .dashed-line {
+
+    border: 1px dashed var(--Bordercolor);
+    width: 100%;
+    height: 1px;
+}
+.SectionThreeCoursesPage .d{
+    color: var( --Titlecolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var( --title-font-family);
+    font-size: var( --S1-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S1-Subtitle-font-weight);
+    line-height: var(--S1-Subtitle-line-height);
+}
+.SectionThreeCoursesPage .lE{
+    color: var(--Themecolor2);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var( --Body-font-family);
+    font-size: var(   --P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var( --P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+    text-transform: uppercase;
+    margin-left: 20%;
+
+}
+.SectionThreeDetailsBlogPage .searchbox,
+.SectionThreeBlogPage .searchbox,
+.SectionThreeCoursesPage .searchbox{
+
+    transition: border-color 0.5s;
+    border-color: white;
+    border-radius: 10px;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 7px 36px 0px #EAEDF2;
+    height: 81px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Bordercolor, #D0DBE9);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+}
+.SectionThreeDetailsBlogPage .search,
+.SectionThreeBlogPage .search,
+.SectionThreeCoursesPage .search {
+    padding: 10px;
+    padding-left: 55px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    width: 90%;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    border-radius: 10px;
+    background: var(--SmokeColor, #F3F7FB);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+}
+
+.SectionThreeCoursesPage .Categorybox{
+
+
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Bordercolor, #D0DBE9);
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+}
+
+.SectionThreeCoursesPage .Category{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var( --H5-title-font-size);
+    font-style: normal;
+    font-weight: var(--H5-title-font-weight);
+    line-height: var( --H5-title-line-height);
+    padding: 10px 0px;
+    font-weight: bold;
+
+}
+.SectionThreeCoursesPage .line{
+    height: 1px;
+    align-self: stretch;
+    border: 1px dashed var(--Bordercolor, #D0DBE9);
+}
+.SectionThreeCoursesPage .PriceLevelbox{
+    height: 172px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Bordercolor, #D0DBE9);
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+
+}
+.SectionThreeCoursesPage .TimeDurationbox{
+    height: 219px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Bordercolor, #D0DBE9);
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+}
+.SectionThreeCoursesPage .OurInstructorbox{
+    height: 266px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Bordercolor, #D0DBE9);
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+}
+.SectionThreeCoursesPage .form-check-input + .form-check-label {
+    color: var(--Bodycolor, #4D5765);
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.SectionThreeCoursesPage .form-check-input:checked + .form-check-label {
+    color: var(--Themecolor1, #0067BC);
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.SectionThreeCoursesPage  .subcategory-checkboxes {
+    margin-left: 20px; /* Indent subcategories */
+    display: none; /* Initially hide subcategories */
+}
+.SectionThreeCoursesPage .dashed-line2{
+    border: 1px dashed var(--Bordercolor);
+    width: 88%;
+    height: 1px;
+}
+.SectionThreeCoursesPage .lE2{
+    color: var(--Themecolor2);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var( --Body-font-family);
+    font-size: var(   --P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var( --P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+    text-transform: uppercase;
+
+
+}
+.SectionThreeCoursesPage .a{
+    text-decoration: none;
+
+}
+.SectionThreeCoursesPage .Grid {
+    display: block; /* Initially display List */
+}
+.SectionThreeCoursesPage .List {
+    display: none; /* Initially hide Grid */
+}
+.SectionThreeCoursesPage .rectangularstyle2{width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    background: var( --Themecolor2);
+    position: absolute;
+    top: 12%;
+    left: 4%;}
+
+/*Section 3 in BLOG POST Page */
+.SectionThreeDetailsBlogPage .card-title,
+.SectionThreeBlogPage .card-title{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: var(--H4-title-font-weight);
+    line-height: var( --H4-title-line-height);
+}
+.SectionThreeDetailsBlogPage .p1,
+.SectionThreeBlogPage .p1{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    /* Body font/Paragraph - P2 */
+    font-family: var(--Body-font-family);
+    font-size: var( --P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+}
+.SectionThreeDetailsBlogPage .card-text,
+.SectionThreeBlogPage .card-text{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    /* Body font/Paragraph - P1 */
+    font-family: Roboto;
+    font-size:var( --P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);}
+
+.SectionNine .link,
+.SectionThreeDetailsBlogPage .link,
+.SectionThreeBlogPage .link{
+    color: var(--Themecolor1);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size:var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--S2-Subtitle-font-weight);
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.SectionThreeBlogPage .play{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.SectionThreeRegisterPage .line,
+.SectionThreeDetailsBlogPage .line,
+.SectionThreeBlogPage .line{
+    width: 100%;
+    height: 3px;
+    background: var( --LightBluecolor, #ECF1F9);
+}
+.SectionThreeRegisterPage .line2,
+.SectionThreeDetailsBlogPage .line2,
+.SectionThreeBlogPage .line2{
+    width: 25%;
+    height: 3px;
+    background: var( --Themecolor1, #0067BC);
+}
+.SectionThreeDetailsBlogPage .Categorybox,
+.SectionThreeBlogPage .Categorybox{
+
+    height: auto;
+
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid var(--Bordercolor, #D0DBE9);
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+}
+.SectionThreeDetailsBlogPage .Category,
+.SectionThreeBlogPage .Category {
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var( --H5-title-font-size);
+    font-style: normal;
+    font-weight: var(--H5-title-font-weight);
+    line-height: var( --H5-title-line-height);
+    padding: 10px 0px;
+    font-weight: bold;
+
+}
+.SectionThreeDetailsBlogPage .p2,
+.SectionThreeBlogPage .p2{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var(--P1-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P1-paragraph-font-weight);
+    line-height: normal;
+}
+.SectionThreeDetailsBlogPage .p3,
+.SectionThreeBlogPage .p3{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Heading - H6 */
+    font-family:  var(--title-font-family);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: var(--P1-paragraph-font-weight);;
+    line-height: 20px;
+}
+.SectionThreeDetailsBlogPage .Button,
+.SectionThreeBlogPage .Button{
+    width: auto;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: var(--SmokeColor, #F3F7FB);
+}
+.SectionThreeDetailsBlogPage .p4,
+.SectionThreeBlogPage .p4{
+    color: var(--Bodycolor, #4D5765);
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.SectionThreeDetailsBlogPage .p5,
+.SectionThreeBlogPage .p5{
+    color: var(--Bodycolor, #4D5765);
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 2px;
+
+}
+
+
+
+/* Course Details Page*/
+/*Section Three Course Details*/
+.course-img-container{
+    height: 525px;
+    background-image: url('/image/image2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.instructor-info,
+.course-info{
+    border-radius: 10px;
+    border: 1px solid #D0DBE9;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 7px 36px 0px rgba(234, 237, 242, 0.50);
+}
+.course-info .rectangularstyle{
+    left: 3%;
+}
+.course-info .rectangularstyle,
+.course-info .seller
+{
+    width: 135px !important;
+    height: 30px;
+    border-radius: 20px;
+    background: var( --Themecolor2);
+}
+.section-six .p3,
+.course-info .p3 {
+    color: var(--Titlecolor, #00112B);
+
+    /* Title font/Subtitle - S2 */
+    font-family: var(--title-font-family);
+    font-size: var(--S2-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S2-Subtitle-font-weight);
+    line-height:var(--S2-Subtitle-line-height); /* 162.5% */
+}
+.course-info .instuctor-img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background:url('/image/instruct-img.png');
+
+}
+.instructor-card .p3,
+.course-info .p2{
+    color: var( --Bodycolor);
+    leading-trim: both;
+    text-edge: cap;
+    font-family:var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var( --P2-paragraph-font-weight);
+    line-height:var(--P2-paragraph-line-height);
+}
+.course-info .right-border{
+    border-right: 1px solid #D0DBE9;
+}
+/*start Section 4 in Course Details Page*/
+.review-top-btn.active,
+.mid-top-btn.active,
+.overview-top-btn.active,
+.course-info .review-top-btn,
+.course-info .mid-top-btn,
+.course-info .overview-top-btn{
+    display: flex;
+    height: 60px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background:#ECF1F9;
+    border: none;
+    color: var(--Bodycolor, #4D5765);
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.overview-top-btn.active,
+.course-info .overview-top-btn{
+    border-radius: 10px 0px 0px 0px;
+}
+.review-top-btn.active,
+.course-info .review-top-btn{
+    border-radius: 0px 10px 0px 0px;
+}
+
+.review-top-btn.active,
+.mid-top-btn.active,
+.overview-top-btn.active {
+    border-top: 5px solid var(--Themecolor1, #0067BC);
+    background: #FFF;
+    transition: background-color 0.3s, border 0.2s;
+}
+
+.course-info .review-top-btn:hover,
+.course-info .mid-top-btn:hover,
+.course-info .overview-top-btn:hover {
+    border-top: 5px solid var(--Themecolor1, #0067BC);
+    background: #FFF;
+    transition: background-color 0.3s, border 0.2s;
+}
+
+.instructor-info .p8,
+.course-info  .p8{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Title font/Subtitle - S1 */
+    font-family: var(--title-font-family);
+    font-size: var(--S1-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S1-Subtitle-font-weight);
+    line-height: var(--S1-Subtitle-line-height); /* 155.556% */
+}
+.curriculam .curriculam-rectangle{
+    display: flex;
+    height: 60px;
+    border-radius: 10px 10px 0px 0px;
+    background: #ECF1F9;
+}
+.instructor-info .instructor .p10,
+.course-info .instructor .p10{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Heading - H3 */
+    font-family: var(--title-font-family);
+    font-size: var(--H3-title-font-size);
+    font-style: normal;
+    font-weight: var(--H3-title-font-weight);
+    line-height: var(--H3-title-line-height); /* 127.778% */
+    text-transform: capitalize;
+}
+
+/*from contact us page*/
+.contact-us .p5,
+    /*from contact us page*/
+.course-info .p9{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.instructor-info .instructor .instructor-img-container,
+.course-info .instructor .instructor-img-container{
+    height: 404px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background:  url(/image/instructor-img.png), lightgray 50% ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+.instructor-info .instructor .contact-circle,
+.course-info .instructor .contact-circle{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--Themecolor1, #0067BC);
+}
+.instructor-info .instructor .social-circle-btn,
+.course-info .instructor .social-circle-btn{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Whitecolor, #FFF);
+    filter: drop-shadow(0px 2.7200002670288086px 12.240001678466797px rgba(13, 94, 244, 0.24));
+    color: #00112B;
+    font-size: 12.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.instructor-info .instructor .social-circle-btn:hover,
+.course-info .instructor .social-circle-btn:hover{
+    background-color: var(--Themecolor2, #F20F10);
+    color: #FFFFFF;
+}
+
+.instructor-info .p11,
+.course-info .p11{
+    color: var(--Themecolor1, #0067BC);
+
+    /* Title font/Subtitle - S3 */
+    font-family: var(--title-font-family);
+    font-size: var(--S3-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S3-Subtitle-font-weight);
+    line-height: var(--S3-Subtitle-line-height);
+}
+.instructor-card .p1,
+.course-info .p6{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Heading - H5 */
+    font-family: var(--title-font-family);
+    font-size: var(--H5-title-font-size);
+    font-style: normal;
+    font-weight: var(--H5-title-font-weight);
+    line-height: var(--H5-title-line-height); /* 141.667% */
+    text-transform: capitalize;
+    text-align: left
+}
+.instructor-info .p7,
+.course-info .p7{
+    color: var(--Bodycolor, #4D5765);
+    /* Body font/Paragraph - P1 */
+    font-family:var(--Body-font-family);
+    font-size: var(--P1-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P1-paragraph-font-weight);
+    line-height: var(--P1-paragraph-line-height);
+}
+.course-info .review .rating-inner-container{
+    display: flex;
+    /*width: 166px;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Themecolor1, #0067BC);
+}
+.course-info .review .rating-outer-container{
+    border-radius: 10px;
+    border: 1px solid  #ECF1F9;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+}
+.course-info .review .rate-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: url(/image/instructor1-4.png), lightgray 50% ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+.course-info .review .p12{
+    color: var(--Whitecolor, #FFF);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Title font/Heading - H1 */
+    font-family: var(--title-font-family);
+    font-size: var(--H1-title-font-size);
+    font-style: normal;
+    font-weight: var(--H1-title-font-weight);
+    line-height: var(--H1-title-line-height); /* 115.625% */
+}
+/*end Section 4 in Course Details Page*/
+
+
+/*start Section 5 in Course Details Page*/
+.course-info .course-video{
+    height: 220px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%),  url(/image/image2.png), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+}
+.course-img-container .video-button,
+.course-video .video-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: var(--Whitecolor , #FFFFFF);
+    border: transparent;
+    position: absolute;
+    /*top: 80px;*/
+    /*left: 38%;*/
+    font-size: 16px;
+    font-weight: 900;
+}
+.course-info .p4{
+    color: var(--Titlecolor, #0F2239);
+    /* Title font/Heading - H4 */
+    font-family: var(--title-font-family);
+    font-size: var(--H4-title-font-size);
+    font-style: normal;
+    font-weight: var(--H4-title-font-weight);
+    line-height: var(--H4-title-line-height); /* 133.333% */
+}
+.course-info .discount-rectangle{
+    display: flex;
+    width: 70px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 72px;
+    background-color: var(--Themecolor2);
+}
+.course-info .p5{
+    color: #FFF;
+    font-family: var(--title-font-family);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*from instructor page*/
+.section-four .get-started,
+    /*from instructor page*/
+
+.course-info .buy-now,
+.course-info .add-to-cart{
+    border-radius: 5px;
+    border: none;
+    background: var(--Themecolor1, #0067BC);
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+    color: var(--Whitecolor, #FFF);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.course-info .buy-now{
+    border: 1px solid #0067BC;
+    color:#0067BC;
+    background-color: #FFFFFF
+}
+/*from instructor page*/
+.section-four .get-started:hover,
+    /*from instructor page*/
+    /*from contact page*/
+.contact-us .submit-message:hover,
+    /*from contact page*/
+.course-info .buy-now:hover,
+.course-info .add-to-cart:hover{
+    background: #004C8B;
+    transition: background-color 0.5s ;
+    color: #FFFFFF;
+}
+
+
+.course-info .share-btn{
+    height: 50px;
+    border-radius: 5px;
+    background: var(--SmokeColor, #F3F7FB);
+    color: var(--Themecolor1, #0067BC);
+    text-align: center;
+    font-family:var(--title-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    gap: 8px;
+    border: none;
+
+}
+.course-info .share-btn:hover{
+    background: var(--Graycolor, #F3F7FB);
+    transition: background-color 0.5s ;
+}
+/*end Section 5 in Course Details Page*/
+
+
+/*start Section 6 in Course Details Page*/
+.section-six .price{
+    color: var(--Themecolor2, #F20F10);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    text-transform: uppercase;
+}
+/*end Section 6 in Course Details Page*/
+
+
+/*start Section 3 in Instructors Page */
+.instructor-card{
+    transition: border-color 0.5s;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 10px 20px 0px rgba(223, 234, 244, 0.50);
+}
+.instructor-card:hover{
+    /*border: 2px solid var(--Themecolor1, #0067BC);*/
+    border-color: #0067BC;
+    transition: border 0.5s ease-in-out;
+}
+
+.instructor-card .instructor-img{
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0 ;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.in-img{
+    transition: transform 0.5s; /* Add a smooth transition */
+}
+.instructor-card:hover .in-img{
+    transform: scale(0.84 , 0.83);
+}
+.instructor-card .card-footer{
+    border-top: 1px solid #ECF1F9;
+}
+
+/*end Section 3 in Instructors Page */
+
+/*start Section 4 in Instructors Page */
+.section-four .p5{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Heading - H2 */
+    font-family: var(--title-font-family);
+    font-size: var(--H2-title-font-size);
+    font-style: normal;
+    font-weight: var(--H2-title-font-weight);
+    line-height: var(--H2-title-line-height); /* 122.727% */
+}
+.section-four .rectangle{
+    display: flex;
+    /*width: 50%;*/
+    height: 80px;
+    padding: 0px 20px;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.07);
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Heading - H5 */
+    font-family: var(--title-font-family);
+    font-size: var(--H5-title-font-size);
+    font-style: normal;
+    font-weight: var(--H5-title-font-weight);
+    line-height: var(--H5-title-line-height); /* 141.667% */
+}
+/*end Section 4 in Instructors Page */
+
+
+
+
+/* CONTACT US PAGE */
+/* Start Section 3 CONTACT US PAGE*/
+.contact-us .get-in-touch{
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ECF1F9;
+    background-image: url("/image/get-in-touch-bg-image.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+    left: 35%;
+    top: 85%;
+}
+.contact-us .p4{
+    color: var(--Titlecolor, #0F2239);
+    font-family: var(--title-font-family);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 58px; /* 120.833% */
+}
+.contact-us .p4::after {
+    content: "";
+    display: block;
+    width: 12%;
+    height: 3px;
+    background: var(--Themecolor1, #0067BC);
+    margin-top: 5px;
+}
+.contact-us .p5{
+    font-family: var(--Body-font-family);
+}
+.SectionThreeRegisterPage .input-field,
+.contact-us .input-field{
+    width: 100%;
+    height: 55px;
+    padding: 0px 24px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Whitecolor, #FFF);
+    border: none;
+    outline: none;
+}
+select option[selected],
+.contact-us .input-field::placeholder{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Body font/Paragraph - P2 */
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight:var(--P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height); /* 171.429% */
+}
+
+.contact-us .submit-message{
+    display: flex;
+    /*padding: 21.5px 30px;*/
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--Themecolor1, #0067BC);
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+    color: var(--Whitecolor, #FFF);
+    leading-trim: both;
+    text-edge: cap;
+    /* Title font/Subtitle - S1 */
+    font-family: var(--title-font-family);
+    font-size: var(--S1-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S1-Subtitle-font-weight);
+    line-height: var(--S1-Subtitle-line-height); /* 155.556% */
+    border: none;
+}
+/* End Section 3 CONTACT US PAGE*/
+
+/* Start Section 4 CONTACT US PAGE*/
+.contact-us .contact-data-container{
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ECF1F9;
+    background: var(--Whitecolor, #FFF);
+    box-shadow: 0px 9px 14px 0px #FBFBFB;
+}
+.contact-us .p6{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Title font/Heading - H6 */
+    font-family: var(--title-font-family);
+    font-size: var(--H6-title-font-size);
+    font-style: normal;
+    font-weight: var(--H6-title-font-weight);
+    line-height: var(--H6-title-line-height); /* 150% */
+}
+.contact-us .p7{
+    color: var(--Bodycolor, #4D5765);
+    font-family: var(--title-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* End Section4 CONTACT US PAGE*/
+
+/*start Section  in BLOG  Details Page*/
+/*start Section  in BLOG  Details Page*/
+.SectionThreeDetailsBlogPage .line3{
+    width: 100%;
+    height: 1px;
+    border: 1px solid var(--Graycolor, #9FAAB7);
+
+}
+.SectionThreeDetailsBlogPage .p7{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var(--H6-title-font-size);
+    font-style: normal;
+    font-weight: var( --H6-title-font-weight);
+    line-height:var(--H6-title-line-height);
+}
+.SectionThreeDetailsBlogPage .Button2{
+    display: flex;
+    width: 87px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--SmokeColor, #F3F7FB);
+    border: none;
+}
+.SectionThreeDetailsBlogPage .box{
+    display: flex;
+    width: 149px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 20px;
+    background: var(--SmokeColor, #F3F7FB);
+}
+.SectionThreeDetailsBlogPage .p8 {
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var( --H3-title-font-size);
+    font-style: normal;
+    font-weight: var(--H3-title-font-weight);
+    line-height: var(--H3-title-line-height);
+}
+.SectionThreeDetailsBlogPage .span{
+    color: var(--Themecolor1, #0067BC);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var( --H3-title-font-size);
+    font-style: normal;
+    font-weight: var(--H3-title-font-weight);
+    line-height: var(--H3-title-line-height);
+}
+.SectionThreeDetailsBlogPage .Commentsbox{
+    display: flex;
+    height: auto;
+    padding: 30px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    background: var(--SmokeColor, #F3F7FB);
+}
+.SectionThreeDetailsBlogPage .p9{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: var(--P1-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P1-paragraph-font-weight);
+    line-height: var(--P1-paragraph-line-height);
+}
+.SectionThreeDetailsBlogPage .p10{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var(--H6-title-font-size);
+    font-style: normal;
+    font-weight: var(--H6-title-font-weight);
+    line-height:var(--H6-title-line-height);
+}
+.SectionThreeDetailsBlogPage .p11{
+    color: var(--Themecolor1, #0067BC);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size:var(--S2-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S2-Subtitle-font-weight);
+    line-height: var(--S2-Subtitle-line-height);
+}
+.SectionThreeRegisterPage .Remember{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: var(--P1-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P1-paragraph-font-weight);
+
+}
+
+.SectionThreeDetailsBlogPage .box2{
+    display: flex;
+    width: 404px;
+    height: 55px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--SmokeColor, #F3F7FB);
+}
+.SectionThreeDetailsBlogPage .p13{
+    color: var(--Bodycolor, #4D5765);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+}
+.SectionThreeDetailsBlogPage .span2{
+    color: var(--Themecolor1, #0067BC);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--Body-font-family);
+    font-size: var(--P2-paragraph-font-size);
+    font-style: normal;
+    font-weight: var(--P2-paragraph-font-weight);
+    line-height: var(--P2-paragraph-line-height);
+}
+.SectionThreeDetailsBlogPage .box3{
+    display: flex;
+    width: 832px;
+    height: 196px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--SmokeColor, #F3F7FB);
+}
+.SectionThreeDetailsBlogPage .input-field{
+    width: 100%;
+    height: 55px;
+    padding: 0px 24px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--SmokeColor, #F3F7FB);
+    border: none;
+    outline: none;
+}
+.SectionThreeDetailsBlogPage .styled-button1{
+    color: var(--Whitecolor);
+    /* Title font/Subtitle - S1 */
+    font-family:  var(--title-font-family);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 15px;
+    border-radius: 5px;
+    background: var( --Themecolor1);
+    /* Btn-Shadow */
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+    display: flex;
+    border: none;
+    text-transform: uppercase;
+}
+
+/*End Section  in BLOG  Details Page*/
+
+
+
+/*start Section  in login & Register   Page*/
+.SectionThreeRegisterPage .box{
+    display: flex;
+    width: auto;
+    padding: 120px 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: var(--SmokeColor, #F3F7FB);
+
+}
+.SectionThreeRegisterPage  .loginbox{
+    display: flex;
+    width: 521px;
+    height:444px;
+    padding: 120px 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: var(--SmokeColor, #F3F7FB);
+    /*background:white;*/
+}
+.SectionThreeRegisterPage  .Registerbox{
+    display: flex;
+    width: 602px;
+    height:604px;
+    padding: 120px 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: white;
+}
+.SectionThreeRegisterPage .Logintitile{
+    color: var(--Titlecolor, #0F2239);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Jost;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 122.727% */
+}
+.SectionThreeRegisterPage .ppp{
+    color: var(--Bodycolor, #4D5765);
+    text-edge: cap;
+    /* Body font/Paragraph - P1 */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.SectionThreeRegisterPage .box2{
+    display: flex;
+    width: 404px;
+    height: 55px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background:white;
+    /*var(--SmokeColor, #F3F7FB);*/
+}
+.SectionThreeRegisterPage .submit-message{
+    width: 210px;
+    height:56px;
+    display: flex;
+    padding: 21.5px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--Themecolor1, #0067BC);
+    box-shadow: 0px 4px 10px 0px rgba(7, 79, 214, 0.28);
+    color: var(--Whitecolor, #FFF);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: var(--S1-Subtitle-font-size);
+    font-style: normal;
+    font-weight: var(--S1-Subtitle-font-weight);
+    line-height: var(--S1-Subtitle-line-height); /* 155.556% */
+    border: none;
+}
+.SectionThreeRegisterPage .line3{
+    width: 1px;
+    height: 569px;
+    background:  #959494;
+    position: relative;
+}
+.SectionThreeRegisterPage .circle{
+    width: 50px;
+    height:50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:45%;
+    right: -26px
+
+
+}
+.SectionThreeRegisterPage .OR{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+
+    /* Title font/Subtitle - S1 */
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+.SectionThreeRegisterPage .forgot{
+    color: var(--Themecolor1, #0067BC);
+    text-align: right;
+    font-family: var(--title-font-family);
+    font-size: var( --P1-paragraph-font-size);
+    font-weight: var(    --P1-paragraph-font-weight);
+    text-decoration: none;
+}
+
+
+
+/*End Section  in login & Register Page*/
+/*start  Not Found  Page*/
+.PageNotFound .home{
+    color: #FFF;
+    font-family: var(--title-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.PageNotFound .p1{
+    color: var(--Titlecolor, #00112B);
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    display: flex;
+    text-transform: capitalize;
+
+}
+.PageNotFound .p2{
+    color: var(--Bodycolor, #4D5765);
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.PageNotFound .span{
+    color: var(--Themecolor1, #0067BC);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: var(--title-font-family);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+/*End  Not Found  Page*/
+.selectedx{
+    color: var(--Themecolor1, #0067BC);
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.selectednot{
+    color: var(--Bodycolor, #4D5765);
+    font-family: var(--title-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/****--------------media-handler--------------**/
+@media only screen and (max-width: 1300px) {
+    .SectionTwo .second-sec {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        margin: auto;
+        font-size: 14px !important;
+
+    }
+
+    /* Additional styles for small screens go here */
+    .SectionTwo .second-sec{
+        display: none !important;
+    }
+    .left-div{
+        margin: auto;
+        display: none;
+    }
+    .lg-carousel{
+        display: none !important;
+    }
+    /*start Section 4 in Instructors Page */
+    .section-four .p5{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: normal; /* 122.727% */
+    }
+    .contact-us .submit-message{
+        font-size: var(--S3-Subtitle-font-size);
+        font-weight: var(--S3-Subtitle-font-weight);
+        line-height: var(--S3-Subtitle-line-height); /* 155.556% */
+    }
+    .PageNotFound .p1,
+    .PageNotFound .span{
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+@media only screen and (max-width: 1500px) /*and (min-width:990px)*/ {
+    .normal-outer-circle{
+        width: 200px;
+        height: 200px;
+    }
+    .inner-circle{
+        width: 180px;
+        height: 180px;
+    }
+    .top-small-circle{
+        left: 23px;
+        bottom: 163px;
+    }
+    .down-small-circle{
+        left: 163px;
+        bottom: 23px;
+    }
+
+    .sectionSeven .social-btn,
+    .sectionSeven .plus-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 18px ;
+    }
+    .sectionSeven .plus-btn{
+        bottom: 49px;
+        left: 110px;
+    }
+    .instructor-social-media{
+        bottom: 50px;
+        left: 55px;
+    }
+    .section-four .rectangle,
+    .instructor-card .p1 {
+        font-size: var(--H6-title-font-size);
+        font-weight: var(--H6-title-font-weight);
+        line-height: var(--H6-title-line-height); /* 141.667% */
+    }
+
+    .slant-right-rectangle::before {
+        right: calc(100% - 65px);
+        transform: skew(-20deg); /* Skew the pseudo-element to the right */
+    }
+    .slant-left-rectangle::before {
+        left: calc(100% - 65px);
+        transform: skew(20deg); /* Skew the pseudo-element to the right */
+    }
+    .sectionEight .p3{
+        font-size: var(--H6-title-font-size);
+        font-weight: var(--H6-title-font-weight);
+        line-height: var(--H6-title-line-height);
+    }
+    .slant-right-inner-content,
+    .slant-left-inner-content{
+        flex-direction: column;
+    }
+    .sectionEight .styled-button1{
+        /* Title font/Subtitle - S1 */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 155.556% */
+        margin-top: 2%;
+        padding: 2%;
+    }
+
+    .sectionEight .styled-button1{
+        /* Title font/Subtitle - S1 */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 155.556% */
+        margin-top: 2%;
+        padding: 2%;
+    }
+    .sectionTen .p4{
+        font-size: var(--H6-title-font-size);
+        font-weight: var(--H6-title-font-weight);
+        line-height: var(--H6-title-line-height);
+        text-transform: capitalize;
+    }
+
+}
+@media only screen and (max-width: 768px) and (min-width:576px) {
+    .slant-right-rectangle::before {
+        right: calc(100% - 70px) !important;
+        transform: skew(-20deg); /* Skew the pseudo-element to the right */
+    }
+    .slant-left-rectangle::before {
+        left: calc(100% - 70px) !important;
+        transform: skew(20deg); /* Skew the pseudo-element to the right */
+    }
+
+}
+
+/*start   Section8 @media in home page */
+@media only screen and (max-width: 1500px) and (min-width:766px)
+{
+
+    .SectionNine .card-title{
+        color: var(--Titlecolor);
+
+        font-family: var(--title-font-family);
+        font-size: 12px ;
+        font-style: normal;
+        font-weight: 12px;
+        line-height: 12px;
+    }
+    .SectionNine .p1{
+        font-size: 12px ;
+        font-style: normal;
+        font-weight: 12px;
+        line-height: 12px;
+    }
+    .SectionNine .link{
+        font-size: 12px ;
+    }
+    .SectionNine .iconarrow{
+        size: 2px;
+    }
+
+
+}
+@media only screen and (max-width: 503px) {
+    .SectionNine .card-title{
+        color: var(--Titlecolor);
+
+        font-family: var(--title-font-family);
+        font-size: 15px ;
+        font-style: normal;
+        font-weight: 12px;
+        line-height: 12px;
+    }
+    .SectionNine .p1{
+        font-size: 12px ;
+        font-style: normal;
+        font-weight: 12px;
+        line-height: 12px;
+    }
+
+    .SectionEleven .p2,
+    .section-six .p2,
+        /*section six at course details page*/
+    .course-info .p1,
+    .SectionNine .p2,
+    .sectionTen .p2,
+    .Sectionsix  .p2,
+    .sectionEight .p2,
+    .sectionSeven .p2,
+    .sectionFour .p2{
+        font-size: 26px ;
+    }
+}
+
+/*start   Section5 @media in home page */
+@media  only screen and (max-width: 1500px) and (min-width:992px){
+    .Sectionsix .p3{
+        color: var(--Titlecolor);
+        font-family: var( --title-font-family);
+        font-size:15px;
+        line-height: 14px;
+
+    }
+    .Sectionsix .p4{
+
+        font-size:12px;
+    }
+
+    .course-info .p7,
+    .course-info .p8,
+    .course-info .p11{
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 20px;
+    }
+}
+
+/*End Section5 @media in home page */
+
+@media   only screen and (max-width: 1320px) and (min-width: 992px){
+    .instructor-info .instructor .p10,
+    .course-info .instructor .p10{
+        font-size: var(--H5-title-font-size);
+        font-weight: var(--H5-title-font-weight);
+        line-height: var(--H5-title-line-height); /* 127.778% */
+    }
+    .instructor-info .p7,
+    .course-info .p7,
+    .instructor-info .p8,
+    .course-info .p8,
+    .instructor-info .p11,
+    .course-info .p11{
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 20px;
+    }
+    .instructor-info .instructor .contact-circle,
+    .course-info .instructor .contact-circle{
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+        margin-right: 2% !important;
+    }
+    .progress{
+        width: 73% !important;
+    }
+
+}
+
+@media   only screen and (max-width: 1200px) and (min-width: 1058px){
+    .SectionThreeDetailsBlogPage .p3,
+    .SectionThreeBlogPage .p3{
+        font-size: 12px;
+        line-height:15PX;
+    }
+    .SectionThreeBlogPage .RecentPostsimage,
+    .SectionThreeDetailsBlogPage .RecentPostsimage{
+        width: 50px;
+        height: 50px;
+    }
+    .SectionThreeDetailsBlogPage .p1,
+    .SectionThreeBlogPage .p1{
+        font-size: 10PX;
+    }
+    .SectionThreeDetailsBlogPage .p2,
+    .SectionThreeBlogPage .p2{
+
+        font-size: 14PX;
+
+    }
+}
+@media   only screen and (max-width: 1058px) and (min-width: 992px){
+    .SectionThreeDetailsBlogPage .p3,
+    .SectionThreeBlogPage .p3{
+        font-size: 10px;
+        line-height:15PX;
+
+    }
+    .SectionThreeDetailsBlogPage .p1,
+    .SectionThreeBlogPage .p1{
+
+        font-size: 8PX;
+
+    }
+    .SectionThreeBlogPage .RecentPostsimage,
+    .SectionThreeDetailsBlogPage .RecentPostsimage{
+        width: 50px;
+        height: 50px;
+    }
+    .SectionThreeDetailsBlogPage .p2,
+    .SectionThreeBlogPage .p2{
+
+        font-size: 12PX;
+
+    }
+}
+@media   only screen and (max-width: 458px){
+    .SectionThreeDetailsBlogPage .p10,
+    .SectionThreeDetailsBlogPage .p11,
+    .SectionThreeDetailsBlogPage .p9,
+    .SectionThreeDetailsBlogPage .p17{
+        font-size: 10px;
+    }
+    .SectionThreeDetailsBlogPage .RecentPostsimage{
+        width: 50px;
+        height: 50px;
+    }
+    .review-top-btn.active,
+    .mid-top-btn.active,
+    .overview-top-btn.active,
+    .course-info .review-top-btn,
+    .course-info .mid-top-btn,
+    .course-info .overview-top-btn{
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    .PageNotFound .p1,
+    .PageNotFound .span{
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .contact-us .p3{
+        color: var(--Titlecolor, #0F2239);
+    }
+}
